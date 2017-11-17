@@ -6,7 +6,7 @@ spring.cloud.config.server.git.uri: https://github.com/eriklupander/go-microserv
 logging:
   level:
     root: WARN
-    com.hotsoup: INFO
+    se.callista: INFO
 
     org.springframework.amqp.rabbit.listener.BlockingQueueConsumer: INFO
     org.apache.catalina.session.ManagerBase: INFO
@@ -37,7 +37,7 @@ encrypt:
     password: letmein
     alias: goblogkey
     secret: changeme
-
+    
 eureka:
   client:
     enabled: false

@@ -9,13 +9,13 @@ pipeline {
     stage('Build') {
       agent {
         docker {
-          image 'timcurless/dockergradle'
+          image 'timcurless/gradledocker'
           label 'DockerGradle'
         }
       }
       steps {
         git "https://github.com/timcurless/goblog.git"
-        sh 'gradle build'
+        sh 'cd support/config-server && ./gradlew build'
       }
     }
   }
