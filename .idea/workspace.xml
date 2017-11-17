@@ -16,8 +16,8 @@
       <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -304,7 +304,7 @@
       <workItem from="1510532588695" duration="3064000" />
       <workItem from="1510539628092" duration="5239000" />
       <workItem from="1510550423645" duration="14948000" />
-      <workItem from="1510885914615" duration="938000" />
+      <workItem from="1510885914615" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Jenksinfile">
       <created>1510886634065</created>
@@ -317,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24291000" />
+    <option name="totallyTimeSpent" value="25510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="968" extended-state="0" />
@@ -381,7 +381,7 @@
         <state relative-caret-position="255">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="e#14#230#0" expanded="true" />
+            <element signature="e#14#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -440,7 +440,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#230#0" expanded="true" />
+            <element signature="e#14#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,7 +684,7 @@
         <state relative-caret-position="705">
           <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
-            <element signature="e#16#135#0" expanded="true" />
+            <element signature="e#16#135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -694,7 +694,7 @@
         <state relative-caret-position="474">
           <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
           <folding>
-            <element signature="e#16#123#0" expanded="true" />
+            <element signature="e#16#123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,7 +704,7 @@
         <state relative-caret-position="555">
           <caret line="37" column="109" lean-forward="false" selection-start-line="37" selection-start-column="109" selection-end-line="37" selection-end-column="109" />
           <folding>
-            <element signature="e#14#230#0" expanded="true" />
+            <element signature="e#14#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>

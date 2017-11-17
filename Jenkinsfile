@@ -3,18 +3,14 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
 
-  agent {
-      docker {
-        image 'buildmystartup/custom-image-with-go'
-        label 'docker'
-      }
-    }
+  agent none
 
   stages {
     stage('Build') {
       agent {
         docker {
-          image "gradle:3.5-jdk8-alpine"
+          image 'timcurless/dockergradle'
+          label 'DockerGradle'
         }
       }
       steps {
