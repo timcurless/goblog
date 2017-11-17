@@ -3,7 +3,12 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
 
-  agent none
+  agent {
+      docker {
+        image 'buildmystartup/custom-image-with-go'
+        label 'docker'
+      }
+    }
 
   stages {
     stage('Build') {
