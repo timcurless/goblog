@@ -21,8 +21,8 @@ pipeline {
     stage('Build') {
 
       steps {
-        sh 'cd support/config-server && ./gradlew build && ls -al'
-        archiveArtifacts artifacts: '**/config*.jar'
+        sh 'cd support/config-server && ./gradlew build'
+        //archiveArtifacts artifacts: '**/config*.jar'
       }
     }
 
@@ -37,7 +37,7 @@ pipeline {
           {
             "files": [
               {
-                "pattern": "build/libs/**/*.jar",
+                "pattern": "**/config*.jar",
                 "target": "libs-snapshots-local/se/callista/microservises/support/{1}/"
               }
             ]
