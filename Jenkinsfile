@@ -36,7 +36,7 @@ pipeline {
           {
             "files": [
               {
-                "pattern": "./build/libs/*.jar",
+                "pattern": "./build/libs/*.*.*.jar",
                 "target": "libs-snapshots-local/se/callista/microservises/support/{1}/"
               }
             ]
