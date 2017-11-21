@@ -22,6 +22,7 @@ pipeline {
 
       steps {
         sh 'cd support/config-server && ./gradlew build && ls -al build/libs'
+        archive 'build/libs/**/*.jar'
       }
     }
 
@@ -36,7 +37,7 @@ pipeline {
           {
             "files": [
               {
-                "pattern": "./build/libs/*.*.*.jar",
+                "pattern": "build/libs/**/*.jar",
                 "target": "libs-snapshots-local/se/callista/microservises/support/{1}/"
               }
             ]
