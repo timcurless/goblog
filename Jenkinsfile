@@ -21,7 +21,7 @@ pipeline {
     stage('Build') {
 
       steps {
-        sh 'cd support/config-server && ./gradlew build && ls -al && pwd'
+        sh 'cd support/config-server && ./gradlew build && ls -al build/libs'
       }
     }
 
