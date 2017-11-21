@@ -22,7 +22,7 @@ pipeline {
 
       steps {
         sh 'cd support/config-server && ./gradlew build && ls -al'
-        archiveArtifacts artifacts: 'build/libs/**/*.jar'
+        archiveArtifacts artifacts: '**/config*.jar'
       }
     }
 
