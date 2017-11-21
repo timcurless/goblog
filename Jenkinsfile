@@ -31,6 +31,8 @@ pipeline {
         script {
           def SERVER_ID = 'Ahead-Demo-Artifactory'
           def server = Artifactory.server SERVER_ID
+          server.username = 'admin'
+          server.password = 'Password1!'
 
           def uploadSpec =
           """
