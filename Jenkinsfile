@@ -21,8 +21,8 @@ pipeline {
     stage('Build') {
 
       steps {
-        sh 'cd support/config-server && ./gradlew build && ls -al build/libs'
-        archive 'build/libs/**/*.jar'
+        sh 'cd support/config-server && ./gradlew build && ls -al'
+        archiveArtifacts artifacts: 'build/libs/**/*.jar'
       }
     }
 
